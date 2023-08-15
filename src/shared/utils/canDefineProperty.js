@@ -6,8 +6,9 @@
  *
  * @flow
  * @providesModule canDefineProperty
+ * 
  */
-
+// 定义 canDefineProperty 变量，用于判断是否支持 Object.defineProperty
 'use strict';
 
 var canDefineProperty = false;

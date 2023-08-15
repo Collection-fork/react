@@ -10,6 +10,9 @@
 
 'use strict';
 
+/**
+ * 引用ReactComponent实例
+ */
 import type {ReactInstance} from 'ReactInstanceType';
 
 /**
@@ -17,7 +20,9 @@ import type {ReactInstance} from 'ReactInstanceType';
  *
  * The current owner is the component who should own any components that are
  * currently being constructed.
+ * ReactCurrentOwner用于在React应用中跟踪React组件树中的当前组件
  */
+
 var ReactCurrentOwner = {
   /**
    * @internal
